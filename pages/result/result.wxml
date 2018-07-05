@@ -1,0 +1,5 @@
+ <view class='image'><image src="{{imgaeUrl}}" mode="aspecFill" style="width: 700rpx; height: 450rpx"/> </view>
+ 
+  
+ <view class='result'> 此处显示搜索结果题目</view>
+

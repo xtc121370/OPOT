@@ -1,0 +1,51 @@
+
+/* pages/denglu/denglu.wxss */
+
+
+page{  
+  width:100%;  
+  height:100%;  
+  overflow: hidden;  
+}  
+.whole{
+
+}
+
+.zhuti{
+font-family: 华文彩云;
+font-size: 50px;
+font-weight: 700;
+
+}
+.logo{
+width: 100%;
+height: 100%;
+display: flex;
+justify-content: center;
+border: 2px red solid; 
+
+}
+.input{
+    padding-left: 10px;
+    height: 44px;
+}
+.inputView{
+    border:  2px solid red;
+    border-radius: 40px;
+    margin-left: 15px;
+    margin-right: 15px;
+    margin-top: 15px;
+}
+.denglu{
+  margin-left: 15rpx;
+   margin-right: 15rpx;
+    margin-top: 50rpx;
+     border-radius: 40rpx;
+}
+.zhuce{
+
+  margin-left: 15rpx;
+   margin-right: 15rpx;
+    margin-top: 50rpx;
+     border-radius: 40rpx;
+}

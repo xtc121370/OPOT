@@ -1,0 +1,20 @@
+<!--index.wxml-->
+<view class='sign'>OPOT</view>
+<view class="container" >
+  <view class="userinfo">
+  <view class='view1'> <button  type='primary' class='image' bindtap='chooseimage' plain='true' ></button></view>
+
+ <image src="{{tempFilePaths }}" mode="aspecFill" style="width: 600rpx; height: 350rpx"/>  
+ <view class='view2'><button class='find' type='primary' bindtap='goresult'  >搜索</button></view>
+ <text>文字搜题</text> 
+    <button wx:if="{{!hasUserInfo && canIUse}}" open-type="getUserInfo" bindgetuserinfo="getUserInfo"> 获取头像昵称 </button>
+    <block wx:else>
+      <image bindtap="bindViewTap" class="userinfo-avatar" src="{{userInfo.avatarUrl}}" background-size="cover"></image>
+      <text class="userinfo-nickname">{{userInfo.nickName}}</text>
+    </block>
+  </view>
+ 
+  <view class="usermotto">
+    <text class="user-motto">{{motto}}</text>
+  </view>
+</view>
